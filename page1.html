@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="page1.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introductory Page</title>
+    <script src="page1.js"></script>
+</head>
+<body>
+    <div class="main_nav"> 
+        <div class="navi">
+            <nav class="nav_bar">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item"> <a href="usage.html">Offers</a> </li> <!-- css isnt proper here-->
+                  <li class="nav-item"> <a href="homepage.html">Home</a> </li>
+                  <li class="nav-item"> <a href="usage.html">My bookings</a> </li>
+                  <li class="nav-item"> <div class="dropdown">
+                    <button class="dropbtn">Login/Register
+                      <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                      <a href="usage.html">Sign Up</a>
+                      <a href="usage.html">Sign In</a>
+                      <a href="usage.html">Premium Subsciption</a>
+                    </div>
+                  </div> 
+                    </li>
+                </ul>   
+            </nav>
+        </div>   
+    </div>
+
+    <section class="column side">
+        <h3> FILTERS </h3>
+        <div class="filters">
+            <div class="filter_cat">
+                <h4 id="cat_name"> DEPARTURE TIME</h4>
+                <div class="fil_ul">
+                    <ul class="fil_li">
+                        <li><input type="checkbox" class="mycheck"/> Before 10 AM </li>
+                        <li> <input type="checkbox"/>Between 10 AM to 5 PM</li>
+                        <li><input type="checkbox"/> Between 5 PM to 10 PM </li>
+                        <li> <input type="checkbox"/>After 10 PM</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="filter_cat">
+                <h4 id="cat_name"> PRICE</h4>
+                <div class="fil_ul">
+                    <ul class="fil_li">
+                        <li><a href="lowtohigh.html"><button>Low To High</button></a></li>
+                        <li><a href="hightolow.html"><button>High To Low</button></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="filter_cat">
+                <h4 id="cat_name"> BUS TYPE</h4>
+                <div class="fil_ul">
+                    <ul class="fil_li">
+                        <li>A/C </li>
+                        <li> Non A/C</li>
+                        <li> Sleeper </li>
+                    </ul>
+                </div>
+            </div>
+
+            
+        </div>
+    </section>
+
+
+    <section class="column middle"> <h3> BUS LIST </h3>
+    <div class="main_bus"> 
+        <div class="bus">
+            <div class="align"></div>
+            <div class="align">
+                <b style="text-align: center;"><a href="index.html" class="trav_ag"  id="tav" >Yashoda Travels</a></b>
+                    <p><b>Departure Time: </b>1:00 pm</p>
+                    <p><b>Arrival Time: </b>4:30 am</p>
+            </div>
+            <div class ="align">
+                    <p><b>Seats available</b></p>
+            </div>  
+            <div class ="align">
+                <p><b>Sleeper A/C</b></p>
+                <p><a href="#">Cancellation Policies</a></p>
+            </div>  
+            <div class ="align">
+                    <p id="pr"><b>₹ 1000 RS</b></p>
+            </div>    
+        </div>
+<!--bus 2-->
+        <div class="bus">
+            <div class="align"></div>
+            <div class="align">
+                <b style="text-align: center;"><a href="index.html" class="trav_ag">Red Bus</a></b>
+                    <p><b>Departure Time: </b>11:00 am</p>
+                    <p><b>Arrival Time: </b>10:30 pm</p>
+            </div>
+            <div class ="align">
+                    <p><b> Seats available</b></p>
+            </div>  
+            <div class ="align">
+                <p><b>NON A/C</b></p>
+                <p><a href="#">Cancellation Policies</a></p>
+            </div>  
+            <div class ="align">
+                    <p><b>₹ 700 RS</b></p>
+            </div>    
+        </div>
+
+        <!--bus 3-->
+        <div class="bus">
+            <div class="align"></div>
+            <div class="align">
+                <b style="text-align: center;"><a href="index.html" class="trav_ag">KSRTC</a></b>
+                    <p><b>Departure Time: </b>10:00 pm</p>
+                    <p><b>Arrival Time: </b>6:30 am</p>
+            </div>
+            <div class ="align">
+                    <p><b>Seats available</b></p>
+            </div>  
+            <div class ="align">
+                <p><b>Sleeper A/C</b></p>
+                <p><a href="#">Cancellation Policies</a></p>
+            </div>  
+            <div class ="align">
+                    <p><b>₹ 1500 RS</b></p>
+            </div>    
+        </div>
+    </div>
+    <div>
+        <p id="tru"> hi </p>
+        <button id="demo" onclick="myFunction()">Click me.</button>
+    </div>
+    </section>    
+</body>
+</html>

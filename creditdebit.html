@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>credit/debit card</title>
+        <style>
+            .frm{
+                border: 4px outset rgba(221, 200, 200, 0.705);
+                background-color: rgb(166, 154, 223);
+                text-align: center;
+                height:450px;
+                width:300px;
+
+            }
+        </style>
+    </head>
+    <body style="background-image:url('bus.gif');background-repeat:no-repeat;background-size:98%;">
+        
+        <div class="frm">
+            <h2>Enter Details!</h2>
+            <label for="nam">Name:</label>
+            <input type="text" id="nam" name="nam"><br/><br/><br/>
+            <label for="cno">Card Number:</label>
+           <input type="text" id="cno" name="cno"><br/><br/><br/>
+           <label for="cvv">CVV:</label>
+           <input type="password" id="cvv" name="cvv"><br/><br/><br/>
+           <label for="date">Validity</label>
+           <input type="date" id="date" name="date"><br/><br/><br/>
+           
+            <label for="card">Card Type:</label>
+            <select name="card" id="card">
+                <option value="credit">Credit Card</option>
+                <option value="debit">Debit Card</option>
+            </select><br/><br/><br/>
+            
+            <a href="done.html"><input type="submit" id="submit" name="submit"></a><br/><br/>
+           <a href="payment.html">Go Back</a>
+
+        </div>
+    </body>
+</html>

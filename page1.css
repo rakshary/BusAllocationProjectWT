@@ -1,0 +1,199 @@
+html,
+body { height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body::before{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+  body{
+   
+    background-image: url("bus2.jpg");
+    backdrop-filter: blur(10px);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.9;
+}  
+
+div.navi
+{
+    float: right;
+    overflow: hidden;
+    margin-top: 4px;
+    
+}
+div.main_nav{
+    float: left;
+    height: 1.5cm;
+    margin: 5px;
+    width: 100%;
+    background-color: rgb(247, 247, 243);
+    border-radius: 20px;
+}
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    font-weight: none;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    float: none;
+    font-weight: none;
+    border-bottom: 1px rgb(223, 223, 223) solid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+.dropdown-content a:hover {
+    background-color: #ddd;
+    
+    
+  }
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+    
+  }
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+.dropdown .dropbtn {
+    font-size: large;  
+    border: none;
+    outline: none;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+.dropdown .dropbtn:hover{
+    color: rgb(223, 11, 53);
+    font-weight: bold;
+
+}
+li.nav-item 
+{
+    border-left: 1pt solid gainsboro;
+    font-size: large;
+    padding: 8px; 
+    margin: 8px;
+    margin-right: 20px;
+    text-align: center;
+    display:inline-block;
+    
+}
+li.nav-item:hover{
+    color: rgb(223, 11, 53);
+    font-weight: bold;
+}
+.column {
+    float: left;
+  }
+  
+/* Left */
+.column.side {
+    width: 23%;
+    margin: 2pt;
+    
+
+  }
+  
+  /* Middle column */
+.column.middle {
+    float: right;
+    margin: 2pt;
+    width: 73%;
+    padding: 5px;
+
+}
+div.filters{
+    position: relative;
+    border-radius: 20px;   
+    padding: 1pt;
+}
+
+div.filter_cat{
+    padding: 5px;
+    background-color: rgb(248, 248, 248);
+    border-bottom: 1pt gainsboro solid;
+    border-radius: 10px;
+    margin: 3px;
+}
+div.fil_ul{
+    margin-top: 0pt;
+    margin-left: 30pt;
+    margin-bottom: 5px;
+    padding: 0px;
+    position: relative;
+}
+#cat_name{
+    margin: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    border-bottom: 2px solid rgba(0,0,0,0.2);
+    position: relative;
+}
+
+button
+{
+    text-decoration: none;
+    padding: 0; border: none; background: none; 
+}
+figure.bimage{
+    float: left;
+    width: 20%;
+    size: 5cm;
+}
+
+div.bus:hover
+{
+    background-color: rgb(211, 206, 206);
+    transform: scale(1.04);
+}
+
+div.bus {
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    border-radius: 10px;
+}
+.align1{
+    border: 1px green solid;
+}
+.align
+{
+
+        padding: 5px;
+        margin: 5px;
+        width: fit-content;
+}
+a{
+
+    text-decoration:none;
+    color: inherit;
+}
+a.trav_ag:hover
+{
+    color: red;
+}
+
+    
