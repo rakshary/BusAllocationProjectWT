@@ -1,7 +1,7 @@
 <html>
 <body>
 <?php
-$con = mysql_connect("localhost","root","Sowmyasree@2003");
+$con = mysql_connect("localhost","root");
 if (!$con)
 {
 die('Could not connect: ' . mysql_error());
